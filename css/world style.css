@@ -1,0 +1,225 @@
+@font-face {
+    font-family: font-just;
+    src: url(../fonts/BalSan.ttf)
+}
+.body{ 
+    background-color: black;
+    font-family: font-just;
+}
+
+.signupbody{
+    display: flex;
+    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 20px;
+}
+.signup_container{
+    width: 50%;
+    background-color: #dadada;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.sign_up_text_div{
+    width: 90%;
+}
+
+.header1{
+    text-align: center;    
+}
+
+.header2{
+    font-size: 200%;
+    color: white;
+    display: inline; 
+}
+
+.login{
+    text-align: center;
+    font-size:2rem;
+    margin-bottom: 10px;
+}
+.main{
+    align-items: center;
+}
+.main_sub_div{
+    width: 100%;
+    height: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.svg_img{
+    width: 40%;
+}
+
+.login_svg{
+    width: 90%;
+    background-color:black;
+}
+.text_address{
+    color: black;
+    padding: 10px;
+    text-align: left;
+}
+.alternative{
+    text-decoration: none;
+    color: rgb(97, 97, 192);
+    margin-left: 10px;
+}
+.alternative:hover{
+    color: black;
+}
+.accept{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.signup_extra{
+    background-color:rgb(97, 97, 192);
+    height: 2rem;
+    width: 30%;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    box-shadow: rgb(65, 57, 57);
+    font-size: 1rem;
+}
+.body1{
+    
+    width: 30%;
+    height: 22rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px ;
+}
+.firstname{
+    width : 95%;
+    height: 2.3rem;
+    border: none;
+    box-shadow: 0 0 4px #dadada;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    padding: 5px;
+}
+.login3{
+    color: rgb(14, 13, 13);
+}
+.login-4{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.gender{
+    text-align: center;
+    
+}
+
+
+.signup{
+    background-color:orange;
+    height: 2rem;
+    width: 90%;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    box-shadow: rgb(65, 57, 57);
+    font-size: 1rem;
+    
+}
+.signup:hover{
+    opacity: 0.6;
+    
+}
+.foot{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.foot3{
+    font-size: 200%;
+    
+}
+
+
+
+ 
+.curious5{
+    text-align: center;
+}
+.phonenumber{
+    text-align: center;
+    
+}
+.email{
+    text-align: center;
+    font-family:serif;
+    padding-bottom: 10px;
+}
+.footer{
+    background-color: dimgrey;
+}
+.homeul{
+    margin: 0;
+    padding: 0;
+}
+.headerul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px
+    
+}
+.homeli{
+    display: inline;
+}
+
+.homea{
+    text-decoration: none;
+    color: black;
+    margin-left:200px;
+    font-size: 250%;
+    
+}
+.worldnewsa{
+    font-size: 350%;
+    text-decoration: none;
+    color: black;
+}
+.categoriesa{
+    margin-left: 400px;
+    text-decoration: none;
+    color: black;
+    font-size: 200%;
+    padding: 10px;
+    width: 50px;
+    margin-top: 20px;
+}
+.categoriesli{
+    margin-left: 1030px;
+    margin-bottom: 0px;
+    
+    text-decoration: none;
+    color: black;
+    font-size: 200%;
+    border: 1px solid black;
+    padding: 12px;
+    width: 180px;
+    list-style: none;
+    
+}
+.categoriessec{
+    text-decoration: none;
+} 
+.categoriesul{
+    display: none;
+}
+.categoriesa:hover .categoriesli{
+    display: flex;
+}
