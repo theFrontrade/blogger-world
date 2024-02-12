@@ -131,6 +131,7 @@ header{
     width: 90%;
     height: 5rem;
     margin: 0;
+    object-fit: contain;
 }
 .section-news{
     margin: 0;
